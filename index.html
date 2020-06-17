@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Geography Hangman</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="row">
+                    <div class="col long">
+                        <h2>Letters Guessed</h2>
+                        <ul id="guessed-letters"></ul>
+                    </div>
+                    <div class="col long">
+                        <h2>Last Country</h2>
+                        <h2 id="lastcountry"></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col">
+                        <h1>Guess the Country</h1>
+                        <h3>Press any key to start</h3>
+                        <h1 id="guessword"></h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="assets/images/worldmap.jpg" alt="Map of the World">  
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="row">
+                    <div class="col">
+                        <h2>Guesses Remaining</h2>
+                        <h2 id="lives"></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2>Wins</h2>
+                        <h2 id="wins"></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/javascript/game.js" type="text/javascript"></script>
+</body>
+</html>

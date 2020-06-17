@@ -1,0 +1,45 @@
+body {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: black;
+    text-align: center;
+    background-image: url("../images/cork-board/cork-board.png");
+}
+
+.col {
+    background-color: beige;
+    margin: 20px;
+    padding: 20px;
+    border: brown solid medium;
+}
+
+.long {
+    height: 125px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+#guessword {
+    letter-spacing: 5px;
+}
+
+li {
+    font-size: 20px;
+    list-style-type: none;
+    display: inline-block;
+    letter-spacing: 5px;
+}
+
+img {
+    width: 100%;
+}
